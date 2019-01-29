@@ -36,7 +36,7 @@ android {
      * updated by QtCreator and androiddeployqt tools.
      * Changing them manually might break the compilation!
      *******************************************************/
-
+    androidCompileSdkVersion
     compileSdkVersion androidCompileSdkVersion.toInteger()
 
     buildToolsVersion androidBuildToolsVersion

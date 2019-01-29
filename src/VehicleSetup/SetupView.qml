@@ -148,7 +148,7 @@ Rectangle {
                 horizontalAlignment:    Text.AlignHCenter
                 wrapMode:               Text.WordWrap
                 font.pointSize:         ScreenTools.largeFontPointSize
-                text:                   qsTr("Vehicle settings and info will display after connecting your vehicle.") +
+                text:                   qsTr("Vehicle settings and info will display this brotha! after connecting your vehicle.") +
                                         (ScreenTools.isMobile ? "" : " Click Firmware on the left to upgrade your vehicle.")
 
                 onLinkActivated: Qt.openUrlExternally(link)
@@ -249,9 +249,9 @@ Rectangle {
                 setupIndicator:     false
                 exclusiveGroup:     setupButtonGroup
                 visible:            !ScreenTools.isMobile && _corePlugin.options.showFirmwareUpgrade
-                text:               qsTr("Firmware")
+                text:               qsTr("Firmware this!")
                 Layout.fillWidth:   true
-
+                enabled:            false
                 onClicked: showFirmwarePanel()
             }
 

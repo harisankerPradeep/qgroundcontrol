@@ -117,7 +117,7 @@ public class QGCActivity extends QtActivity
             m_wl.acquire();
             Log.i(TAG, "SCREEN_BRIGHT_WAKE_LOCK acquired.");
         } else {
-            Log.i(TAG, "SCREEN_BRIGHT_WAKE_LOCK not acquired!!!");
+            Log.i(TAG, "SCREEN_BRIGHT_WAKE_LOCK not acquired,yeah!!!!");
         }
         m_instance.getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
     }
