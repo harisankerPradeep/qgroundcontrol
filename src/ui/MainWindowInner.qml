@@ -355,7 +355,7 @@ Item {
     FlightDisplayView {
         id:                 flightView
         anchors.fill:       parent
-        visible:            true
+        visible:            false
         //-------------------------------------------------------------------------
         //-- Loader helper for any child, no matter how deep can display an element
         //   on top of the video window.
